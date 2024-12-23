@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CSS Units</title>
+
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <!-- Heading -->
+         <header>
+            <h1 class="heading">CSS UNITS</h1>
+         </header>
+
+        <!-- Absolute Unit -->
+         <section>
+            <div class="absolute-unit">
+                <!-- pixel -->
+                 <div class="px-unit">
+                    <h2>px (Pixels)</h2>
+                    <p>Pixels are the most common unit used in web design. It is an absolute unit that represents a single pixel on the screen.</p>
+                    <div class="box box-small">
+                        <p>Box with height of 50px</p>
+                    </div>
+                 </div>
+
+                 <!-- millimeter -->
+                <div class="mm-unit">
+                    <h2>mm (Millimeters)</h2>
+                    <p>The <strong>mm</strong> unit represents physical millimeters. It can be used for very fine control in physical measurements.</p>
+                    <div class="box box-mm" style="font-size: 10mm;">
+                        <p>Box with font-size of 10mm</p>
+                    </div>
+                </div>
+
+                <!-- inch -->
+                 <div class="in-unit">
+                    <h2>in (Inches)</h2>
+                    <p>The <strong>in</strong> unit represents inches. 1 inch equals 2.54 centimeters and is typically used for print.</p>
+                    <div class="box box-in" style="font-size: 1in;">
+                        <p>Box with font-size of 1 inch</p>
+                    </div>
+                </div>
+                
+                <!-- centimeter -->
+                <div class="cm-unit">
+                    <h2>cm (Centimeters)</h2>
+                    <p>The <strong>cm</strong> unit represents physical centimeters. It's useful for print-based designs but can also be used for web pages.</p>
+                    <div class="box box-cm" style="font-size: 4cm;">
+                        <p>Box with font-size of 4cm</p>
+                    </div>
+                </div>
+
+                <!-- point -->
+                <div class="pt-unit">
+                    <h2>pt (Points)</h2>
+                    <p>The <strong>pt</strong> unit is commonly used in print media. 1 point is equal to 1/72 of an inch.</p>
+                    <div class="box box-pt" style="font-size: 12pt;">
+                        <p>Box with font-size of 12pt</p>
+                    </div>
+                </div>
+
+
+            </div>
+         </section>
+
+         <!-- Relative Unit -->
+         <section>
+            <div class="relative-unit">
+                  <!-- percentage -->
+                  <div class="percentage-unit">
+                    <h2>% (Percentage)</h2>
+                    <p>The <strong>%</strong> unit is relative to the parent element's size. This unit is commonly used for responsive layouts.</p>
+                    <div class="box box-percentage" style="width: 50%;">
+                        <p>Box with width 50% of parent</p>
+                    </div>
+                 </div>
+
+                <!-- View Width -->
+                <div class="vw-unit">
+                    <h2>vw (Viewport Width)</h2>
+                    <p>The <strong>vw</strong> unit is relative to the viewport's width. 1vw is equal to 1% of the viewport's width. It is very useful for making elements scale according to the screen size.</p>
+                    <div class="box box-vw" style="width: 50vw;">
+                        <p>Box with width 50vw (50% of the viewport width)</p>
+                    </div>
+                </div>
+
+                 <!-- View Height -->
+                <div class="vh-unit">
+                    <h2>vh (Viewport Height)</h2>
+                    <p>The <strong>vh</strong> unit is relative to the viewport's height. 1vh equals 1% of the viewport's height.</p>
+                    <div class="box" style="height: 30vh;">
+                        <p>Box with height 30vh (30% of the viewport height)</p>
+                    </div>
+                </div>
+
+                <!-- em -->
+                 <div class="em-unit">
+                    <h2>em</h2>
+                    <p>The <strong>em</strong> unit is relative to the font size of its closest parent element. It allows for scalable layouts.</p>
+                    <div class="box" style="font-size: 1.5em;">
+                        <p>Box with 1.5em font-size (relative to parent)</p>
+                    </div>
+                </div>
+                
+                <!-- rem -->
+                <div class="rem-unit">
+                    <h2>rem</h2>
+                    <p>The <strong>rem</strong> unit is relative to the root element's font size. It provides consistency across the page.</p>
+                    <div class="box" style="font-size: 2rem;">
+                        <p>Box with 2rem font-size (relative to root element)</p>
+                    </div>
+                </div>
+
+            </div>
+         </section>
+    </body>
+</html>
